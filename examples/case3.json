@@ -1,0 +1,543 @@
+{
+  "ExcludeFirstDcmMonth": false,
+  "Resources": [
+    {
+      "ResourceId": "battery-01",
+      "Capacity": 250.0,
+      "FrPercent": 0.35,
+      "Type": "BT",
+      "HourLimit": 0,
+      "FirstPeriodHourLimit": null,
+      "KwhLimit": -1500.0,
+      "FuelCost": 0.0,
+      "BtEfficiency": 0.95,
+      "BtECost": 0.0,
+      "ProgramAnnualBenefits": {
+        "econ": {
+          "MonthBenefits": [
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 120.0,
+                  "DateTime": "07/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 180.5,
+                  "DateTime": "07/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 240.0,
+                  "DateTime": "07/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 310.75,
+                  "DateTime": "07/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 295.5,
+                  "DateTime": "07/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 210.0,
+                  "DateTime": "07/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 150.25,
+                  "DateTime": "07/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 95.0,
+                  "DateTime": "07/15/2023 19:00:00"
+                }
+              ]
+            },
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 110.0,
+                  "DateTime": "08/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 165.0,
+                  "DateTime": "08/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 255.5,
+                  "DateTime": "08/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 330.0,
+                  "DateTime": "08/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 305.25,
+                  "DateTime": "08/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 220.5,
+                  "DateTime": "08/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 140.0,
+                  "DateTime": "08/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 88.5,
+                  "DateTime": "08/15/2023 19:00:00"
+                }
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "MonthBenefits": [
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 150.0,
+                  "DateTime": "07/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 160.0,
+                  "DateTime": "07/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 190.5,
+                  "DateTime": "07/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 205.0,
+                  "DateTime": "07/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 215.75,
+                  "DateTime": "07/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 230.0,
+                  "DateTime": "07/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 245.5,
+                  "DateTime": "07/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 180.0,
+                  "DateTime": "07/15/2023 19:00:00"
+                }
+              ]
+            },
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 140.5,
+                  "DateTime": "08/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 155.0,
+                  "DateTime": "08/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 185.0,
+                  "DateTime": "08/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 210.5,
+                  "DateTime": "08/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 225.0,
+                  "DateTime": "08/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 240.75,
+                  "DateTime": "08/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 250.0,
+                  "DateTime": "08/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 175.5,
+                  "DateTime": "08/15/2023 19:00:00"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ResourceId": "generator-01",
+      "Capacity": 400.0,
+      "FrPercent": 0.2,
+      "Type": "BG",
+      "HourLimit": 8,
+      "FirstPeriodHourLimit": null,
+      "KwhLimit": 0,
+      "FuelCost": 0.12,
+      "BtEfficiency": 0.0,
+      "BtECost": 0.0,
+      "ProgramAnnualBenefits": {
+        "econ": {
+          "MonthBenefits": [
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 200.0,
+                  "DateTime": "07/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 260.5,
+                  "DateTime": "07/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 340.0,
+                  "DateTime": "07/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 420.25,
+                  "DateTime": "07/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 400.5,
+                  "DateTime": "07/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 310.0,
+                  "DateTime": "07/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 230.75,
+                  "DateTime": "07/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 160.0,
+                  "DateTime": "07/15/2023 19:00:00"
+                }
+              ]
+            },
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 190.0,
+                  "DateTime": "08/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 250.0,
+                  "DateTime": "08/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 355.5,
+                  "DateTime": "08/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 445.0,
+                  "DateTime": "08/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 415.25,
+                  "DateTime": "08/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 320.5,
+                  "DateTime": "08/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 215.0,
+                  "DateTime": "08/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 150.5,
+                  "DateTime": "08/15/2023 19:00:00"
+                }
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "MonthBenefits": [
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 90.0,
+                  "DateTime": "07/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 95.5,
+                  "DateTime": "07/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 110.0,
+                  "DateTime": "07/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 120.25,
+                  "DateTime": "07/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 125.5,
+                  "DateTime": "07/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 130.0,
+                  "DateTime": "07/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 135.75,
+                  "DateTime": "07/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 105.0,
+                  "DateTime": "07/15/2023 19:00:00"
+                }
+              ]
+            },
+            {
+              "HourBenefits": [
+                {
+                  "Hour": 1,
+                  "Benefit": 85.5,
+                  "DateTime": "08/15/2023 12:00:00"
+                },
+                {
+                  "Hour": 2,
+                  "Benefit": 92.0,
+                  "DateTime": "08/15/2023 13:00:00"
+                },
+                {
+                  "Hour": 3,
+                  "Benefit": 108.5,
+                  "DateTime": "08/15/2023 14:00:00"
+                },
+                {
+                  "Hour": 4,
+                  "Benefit": 122.0,
+                  "DateTime": "08/15/2023 15:00:00"
+                },
+                {
+                  "Hour": 5,
+                  "Benefit": 128.25,
+                  "DateTime": "08/15/2023 16:00:00"
+                },
+                {
+                  "Hour": 6,
+                  "Benefit": 134.5,
+                  "DateTime": "08/15/2023 17:00:00"
+                },
+                {
+                  "Hour": 7,
+                  "Benefit": 140.0,
+                  "DateTime": "08/15/2023 18:00:00"
+                },
+                {
+                  "Hour": 8,
+                  "Benefit": 100.5,
+                  "DateTime": "08/15/2023 19:00:00"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "MonthlyLoads": [
+    {
+      "Loads": [
+        {
+          "Hour": 1,
+          "Kw": 500.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 500.0,
+          "DateTime": "2023-07-15T12:00:00"
+        },
+        {
+          "Hour": 2,
+          "Kw": 520.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 520.0,
+          "DateTime": "2023-07-15T13:00:00"
+        },
+        {
+          "Hour": 3,
+          "Kw": 540.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 540.0,
+          "DateTime": "2023-07-15T14:00:00"
+        },
+        {
+          "Hour": 4,
+          "Kw": 560.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 560.0,
+          "DateTime": "2023-07-15T15:00:00"
+        },
+        {
+          "Hour": 5,
+          "Kw": 580.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 580.0,
+          "DateTime": "2023-07-15T16:00:00"
+        },
+        {
+          "Hour": 6,
+          "Kw": 600.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 600.0,
+          "DateTime": "2023-07-15T17:00:00"
+        },
+        {
+          "Hour": 7,
+          "Kw": 620.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 620.0,
+          "DateTime": "2023-07-15T18:00:00"
+        },
+        {
+          "Hour": 8,
+          "Kw": 640.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 640.0,
+          "DateTime": "2023-07-15T19:00:00"
+        }
+      ]
+    },
+    {
+      "Loads": [
+        {
+          "Hour": 1,
+          "Kw": 500.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 500.0,
+          "DateTime": "2023-08-15T12:00:00"
+        },
+        {
+          "Hour": 2,
+          "Kw": 520.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 520.0,
+          "DateTime": "2023-08-15T13:00:00"
+        },
+        {
+          "Hour": 3,
+          "Kw": 540.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 540.0,
+          "DateTime": "2023-08-15T14:00:00"
+        },
+        {
+          "Hour": 4,
+          "Kw": 560.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 560.0,
+          "DateTime": "2023-08-15T15:00:00"
+        },
+        {
+          "Hour": 5,
+          "Kw": 580.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 580.0,
+          "DateTime": "2023-08-15T16:00:00"
+        },
+        {
+          "Hour": 6,
+          "Kw": 600.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 600.0,
+          "DateTime": "2023-08-15T17:00:00"
+        },
+        {
+          "Hour": 7,
+          "Kw": 620.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 620.0,
+          "DateTime": "2023-08-15T18:00:00"
+        },
+        {
+          "Hour": 8,
+          "Kw": 640.0,
+          "UtilityRate": 0.11,
+          "DcmChargeRate": 0.0,
+          "EconLoadKw": 640.0,
+          "DateTime": "2023-08-15T19:00:00"
+        }
+      ]
+    }
+  ],
+  "DcmData": [
+    [],
+    []
+  ]
+}
